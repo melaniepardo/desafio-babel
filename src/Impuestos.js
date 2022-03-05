@@ -1,12 +1,11 @@
 export default class Impuestos {
-    constructor(montoBrutoAnual, deducciones) {
+    constructor() {
         this._montoBrutoAnual = 0
         this._deducciones = 0
     }
     getMontoBrutoAnual() {
         return this._montoBrutoAnual
     }
-
     setMontoBrutoAnual(montoBrutoAnual) {
         this._montoBrutoAnual = montoBrutoAnual
     }
